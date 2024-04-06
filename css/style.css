@@ -430,6 +430,12 @@ footer {
 	padding: 20px;
 	background-color: var(--main-bg-color);
 	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+
+footer h5,
+footer li {
+	margin-bottom: 16px;
 }
 
 footer a:hover {
