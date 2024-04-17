@@ -355,13 +355,20 @@ button:hover {
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
 	.hebergements-and-populaires {
 		flex-direction: column;
 	}
 
 	.hebergements {
 		width: 100%;
+	}
+
+	.hebergement-cards .card-title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 150px;
 	}
 
 	.populaires {
